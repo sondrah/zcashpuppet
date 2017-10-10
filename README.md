@@ -18,5 +18,5 @@ This puppet module automate the install procedure in this page https://z.cash/do
 
 ## Development
 
-Marius Sveum Olsen
-Sondre Ahlgren
+* Marius Sveum Olsen
+* Sondre Ahlgren

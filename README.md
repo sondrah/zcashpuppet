@@ -3,7 +3,7 @@
 ### Table of Contents
 
 1. [Overview - What is the ZcashPuppet module?](#Overview)
-2. [Lilitations](#Limitations)
+2. [Limitations](#Limitations)
 3. [Development](#Development)
 
 ## Overview

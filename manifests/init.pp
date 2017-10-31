@@ -5,4 +5,6 @@ class zcashpuppet (
 
 ) inherits zcashpuppet::params {
   contain zcashpuppet::install
+  contain zcashpuppet::password
+  Class['::zcashpuppet::install'] -> Class['::zcashpuppet::password']
 }

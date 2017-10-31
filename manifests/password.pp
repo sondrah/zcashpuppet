@@ -2,7 +2,7 @@ class zcashpuppet::password (
   $rpcpassword = $::zcashpuppet::rpcpassword
 ) {
   if $rpcpassword =~ /(.{40,})/ {
-    file_line { 'test': #ONLYIF rpcpassword finnes i hiera
+    file_line { 'rpcpassword_param':
       path   => '/root/.zcash/zcash.conf',
       line   => "rpcpassword=$rpcpassword",
       #notify => Exec['zcashpuppet_gen_password'],

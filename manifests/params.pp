@@ -1,3 +1,3 @@
 class zcashpuppet::params {
-  $rpcpassword = 'ddddddddddddsdadasdadaddqwdqwdqwdqdwqdd'
+  $rpcpassword = 'dadwdawdwefiojdddddddddddsdadasdadaddqwdqwdqwdqdwqdd'
 }

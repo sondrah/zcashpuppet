@@ -1,12 +1,10 @@
 class zcashpuppet::password (
-  $rpcpassword = $::zcashpuppet::rpcpassword
+  $rpcpassword = $::zcashpuppet::params::rpcpassword
 ) {
   if $rpcpassword =~ /(.{40,})/ {
     file_line { 'rpcpassword_param':
       path   => '/root/.zcash/zcash.conf',
       line   => "rpcpassword=$rpcpassword",
-      #notify => Exec['zcashpuppet_gen_password'],
-      #onlyif => "test `echo -n $rpcpassword | wc -c` -gt 0",
     }
   }
   else {

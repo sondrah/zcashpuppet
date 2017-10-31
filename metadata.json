@@ -1,0 +1,18 @@
+{
+  "name": "sondrahmarsols-zcashpuppet",
+  "version": "0.1.0",
+  "author": "Marius Sveum Olsen and Sondre Ahlgren",
+  "summary": "Installation and configuration of zcash on a vm.",
+  "license": "NoLicenseYet",
+  "source": "https://mariusolsen@bitbucket.org/mariusolsen/zcashpuppet.git",
+  "project_page": "https://bitbucket.org/mariusolsen/zcashpuppet",
+  "issues_url": "https://bitbucket.org/mariusolsen/zcashpuppet/issues?status=new&status=open",
+  "requirements" : [
+    { "name": "puppet", "version_requirement": ">=4.10.8 <=5.3.2" }
+  ],
+  "operatingsystem_support" : [
+    { "operatingsystem": "Ubuntu", "operatingsystemrelease": [ "16.04" ] }
+  ],
+  "dependencies": [ ]
+}
+
